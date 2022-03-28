@@ -3,10 +3,123 @@
 
   <head>
     <style>
+      body { 
+        margin: 0
+      }
+      /* h1 {
+        font-family: sans-serif;
+      }
+      div.black-stripe {background-color: black;
+            width: 500px;
+            height: 100px;
+      }
+
+      div.red-stripe {background-color: red;
+            width: 500px;
+            height: 100px;
+      }
+
+      div.yellow-stripe {background-color: yellow;
+            width: 500px;
+            height: 100px;
+      }
+
+      div {
+        display: inline-block;
+        width: 350px;
+        height: 200px;
+      }
+
+      #top{
+        background-color: red;
+      }
+
+      #bottom{
+        background-color: blue;
+      }
+
+      div div {
+        width: 100px;
+        height: 100px;
+        margin: 50px 0 50px 50px;
+        background-color: black;
+      } */
+
+      /* div {
+        background-color: #555555;
+        width: 600px;
+        height: 130px;
+        margin: 10px;
+      }
+      div div {
+        display: inline-block;
+        background-color: #ccc;
+        margin: 6px 0 6px 6px;
+        height: 118px;
+      }
+      #top div {
+        width: 189px;
+      }
+      #middle div {
+        width: 139px;
+        vertical-align: top;
+      }
+      #middle div.tall {
+        height: 100px;
+      }
+      #middle div.short {
+        height: 75px;
+      }
+      #bottom div {
+        width: 288px;
+      }
+      #bottom div.short{
+        height: 35px;
+      } */
+
+      div#outer { 
+        background-color: #ccc;
+        height: 200px;
+        width: 900px;
+        margin: 0 auto;
+        padding: 15px 10px;
+        display: flex;
+        justify-content: space-around;
+      }
+      div#left-square {
+        display: inline-block;
+        background-color: #ccc;
+        width: 180px;
+        height: 180px;
+        border: double 10px black;
+      }
+      div#circle {
+        display: inline-block;
+        background-color: #ccc;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: dotted 10px black;
+      }
+      div#right-square {
+        display: inline-block;
+        background-color: #ccc;
+        width: 180px;
+        height: 180px;
+        border: double 10px black;
+      }
+
     </style>
   </head>
 
   <body>
+    <!-- <h1>Hello world.</h1> -->
+    <div id="outer">
+      <div id="left-square"></div>
+      <div id="circle"></div>
+      <div id="right-square"></div>
+    </div>
+
   </body>
 
 </html>
